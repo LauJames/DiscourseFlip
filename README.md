@@ -16,6 +16,11 @@ To address this, we introduce **discourse-level opinion manipulation**, a new th
 
 4. **`src/eval/` (Stage 4: Evaluating Discourse-Level Opinion Shift)** Injects the optimized poisoned documents back into the RAG system to measure the attack's effectiveness.
 
+5. **`baseline/` (RAG Poisoning Baselines)** Implements PoisonedRAG, Topic-FlipRAG, and UniC-RAG under unified attack budgets and evaluation settings.
+
+6. **`defense/` (RAG Defense Evaluation)** Evaluates retrieval-time and generation-time defenses against corpus poisoning and attack-induced opinion shifts, including GRADA reranking, paraphrasing, robust masking, neutral rewriting, target-topic safeguard, discourse-adaptive defense.
+
+
 ## 🚀 Quick Start
 
 ### External API Configuration
